@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dos_palabras">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dos_palabras"
+        android:background="@color/ColorApp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        />
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/trailing_icon_button"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="9dp"/>
+</FrameLayout>

@@ -13,17 +13,23 @@
         android:theme="@style/Theme.QTAFINAL"
         tools:targetApi="31">
         <activity
+            android:name=".frameNavegacion"
+            android:exported="false" />
+        <activity
+            android:name=".navegacion"
+            android:exported="false" />
+        <activity
             android:name=".SigInActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
