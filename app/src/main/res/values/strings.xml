@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">QTAFINAL</string>
     <string name="sig_in">Iniciar sesión</string>
+    <string name="dos_mitades">Dos mitades</string>
+    <string name="dos_palabras">Dos palabras</string>
+    <string name="quitar_fragmentos">Quitar fragmentos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
