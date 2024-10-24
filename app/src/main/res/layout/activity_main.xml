@@ -17,7 +17,6 @@
         android:layout_marginBottom="89dp"
         android:backgroundTint="@color/ColorApp"
         android:text="@string/sig_in"
-        android:cornerRadius="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.535"
