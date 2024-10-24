@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">QTAFINAL</string>
+    <string name="sig_in">Iniciar sesión</string>
+
 </resources>
